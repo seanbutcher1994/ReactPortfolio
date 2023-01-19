@@ -1,7 +1,7 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import SocialMediaIcons from "../components/SocialMediaIcons"
 
 const Landing = ({setSelectedPage}) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -102,7 +102,7 @@ const Landing = ({setSelectedPage}) => {
                             visible: { opacity: 1, x: 0 }
                         }}
                     >
-
+                        <SocialMediaIcons />
                     </motion.div>
                  </div>
             
