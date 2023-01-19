@@ -1,6 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
+import SkillsIcons from "../components/SkillsIcons";
 
 const MySkills = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -26,6 +27,7 @@ const MySkills = () => {
                     <p className="mt-10 mb-7">
                     Stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things.
                     </p>
+                    <SkillsIcons/>
                 </motion.div>
             </div>
         </section>
