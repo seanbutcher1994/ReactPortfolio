@@ -16,15 +16,15 @@ const Landing = ({setSelectedPage}) => {
                         before:border-2 before:border-blue before:z-[-1]">
                         <img 
                         className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full
-                        max-w-[400px] md:max-w-[600px]" 
-                        src="assets/profile-image.png" 
+                        max-w-[400px] md:max-w-[600px] rounded-t-[400px]" 
+                        src="assets/IMG_7529.jpeg" 
                         alt="profile" />
                     </div>
                 ) : (
                     <img 
                     className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full
-                    max-w-[400px] md:max-w-[600px]" 
-                    src="assets/profile-image.png" 
+                    max-w-[400px] md:max-w-[600px] rounded-t-[400px]" 
+                    src="assets/IMG_7529.jpeg" 
                     alt="profile" />
                  )}
                  </div>
