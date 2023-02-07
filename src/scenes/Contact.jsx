@@ -1,6 +1,7 @@
 import LineGradient from "../components/LineGradient";
 import {useForm} from 'react-hook-form';
 import {motion} from 'framer-motion';
+import contactImage from '../assets/contact-image.jpeg'
 
 const Contact = () => {
     const {
@@ -53,7 +54,7 @@ const Contact = () => {
                         visible: { opacity: 1, y: 0 }
                     }}
                     >
-                        <img src="../assets/contact-image.jpeg" alt="contact" />
+                        <img src={contactImage} alt="contact" />
                     </motion.div>
 
                     <motion.div
