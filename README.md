@@ -3,6 +3,8 @@
   ## Description
   A portfolio of work created by me
 
+  [Link to Portfolio](https://seanbutcher1994.github.io/ReactPortfolio/)
+
   # Table of Contents
   - [Installation Instructions](#installation-instructions)
   - [Usage Information](#usage-information)
